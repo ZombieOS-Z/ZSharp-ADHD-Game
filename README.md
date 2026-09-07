@@ -8,4 +8,4 @@ This game uses Z# v1.0.2.1, which is downloaded off of the [Z# Website](https://
 
 The repository labels JavaScript and CSS. The reason for this is that Z# isnt defined as its own language yet by Linguist so JavaScript and CSS are the closest uses for Z#.
 
-Read `[.gitattributes](.gitattributes)` for details.
+Read [.gitattributes](.gitattributes) for details.
