@@ -1,2 +1,3 @@
-# ZSharp-ADHD-Game
-This is the source code for the Z# ADHD Game. You can download the game from the github releases or off the ZOS Store.
+# Z# ADHD Game
+
+This is the first game made with Z#, and is certified to be boreingly fun to people with ADHD.

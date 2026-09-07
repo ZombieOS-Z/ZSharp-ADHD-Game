@@ -1,0 +1,22 @@
+zsharp = type.script
+
+noticed room Movement[] (
+ noticed brain Start[] (
+  loop (
+   if[input.key.a == alive or input.key.larrow == alive] (
+    Player.velocityX.set: -390:
+   ) else (
+    if[input.key.d == alive or input.key.rarrow == alive] (
+     Player.velocityX.set: 390:
+    ) else (
+     Player.velocityX.set: 0:
+    )
+   )
+   if[(input.key.space == alive or input.key.uarrow == alive or input.key.w == alive) and Player.grounded == alive] (
+    Player.velocityY.set: 680:
+   ) else (
+   )
+   wait(16ms):
+  )
+ )
+)

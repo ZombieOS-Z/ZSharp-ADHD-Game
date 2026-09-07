@@ -1,0 +1,22 @@
+zsharp = type.script
+
+noticed room MovingPlatforms[] (
+ import zsharp_adhd_game.game.scene():
+ noticed brain Start[] (
+  loop (
+   if[Game.scene == "Level5"] (
+    MovingPlatform.velocityX.set: 150:
+    MovingPlatform2.velocityX.set: -120:
+    wait(1200ms):
+    MovingPlatform.velocityX.set: -150:
+    MovingPlatform2.velocityX.set: 120:
+    wait(2400ms):
+    MovingPlatform.velocityX.set: 150:
+    MovingPlatform2.velocityX.set: -120:
+    wait(1200ms):
+   ) else (
+    wait(100ms):
+   )
+  )
+ )
+)

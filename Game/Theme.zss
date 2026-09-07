@@ -1,0 +1,15 @@
+.Player {
+ color: #00E5FF;
+}
+
+.Ball {
+ color: #FFE66D;
+}
+
+.MovingPlatform {
+ color: #FF2A72;
+}
+
+.MovingPlatform2 {
+ color: #FF2A72;
+}

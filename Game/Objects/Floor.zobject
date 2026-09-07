@@ -1,0 +1,11 @@
+zsharp = type.object
+noticed object Floor[] (
+ shape: rectangle:
+ width: 420:
+ height: 35:
+ color: #303048:
+ body: static:
+ attributes[JSON] (
+  [ { "id": "COLLIDER2D", "active": true } ]
+ )
+)

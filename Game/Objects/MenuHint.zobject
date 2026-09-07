@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object MenuHint[] (
+ shape: text:
+ text: "PRESS ENTER - MOVE WITH A/D - JUMP WITH SPACE":
+ scaleX: 1.4:
+ color: #00E5FF:
+ layer: 30:
+)

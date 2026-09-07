@@ -1,0 +1,14 @@
+zsharp = type.object
+noticed object Player[] (
+ shape: rectangle:
+ width: 48:
+ height: 72:
+ color: #00E5FF:
+ body: dynamic:
+ gravityScale: 1:
+ friction: 0.1:
+ layer: 20:
+ attributes[JSON] (
+  [ { "id": "COLLIDER2D", "active": true } ]
+ )
+)

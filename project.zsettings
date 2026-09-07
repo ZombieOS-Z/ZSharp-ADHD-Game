@@ -1,0 +1,17 @@
+zsharp = type.settings
+
+Project: "Z# ADHD Game":
+PID: "zsharp_adhd_game":
+Version: [1.0.2.1]:
+Authors: ["ZombieOS"]:
+Description: "A small game for people with ADHD!":
+Icon: "Assets/Icon.png":
+ZSharp: [1.0.2.1]:
+
+Dependencies (
+ zsharpgame:1.0.0.1
+):
+
+Window (
+ StartScene: "Game/Scenes/Menu.zscene":
+):

@@ -1,0 +1,15 @@
+zsharp = type.scene
+noticed scene Menu[] (
+ scene Menu (
+  title: "Z# Ball Drop":
+  icon: "Assets/Icon.png":
+  background: #000000:
+  gravityY: 0:
+ )
+ objects[JSON] (
+  [
+   { "id": "MenuTitle", "name": "Title", "location": { "x": "-190", "y": "80" } },
+   { "id": "MenuHint", "name": "Instructions", "location": { "x": "-330", "y": "-20" } }
+  ]
+ )
+)

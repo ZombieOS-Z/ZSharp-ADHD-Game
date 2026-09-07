@@ -1,0 +1,15 @@
+zsharp = type.script
+
+noticed room MenuLogic[] (
+ import zsharp_adhd_game.game.scene():
+ noticed brain Start[] (
+  loop (
+   if[Game.scene == "Menu" and input.key.enter == alive] (
+    Game.scene.set: Level1:
+    wait(300ms):
+   ) else (
+   )
+   wait(16ms):
+  )
+ )
+)

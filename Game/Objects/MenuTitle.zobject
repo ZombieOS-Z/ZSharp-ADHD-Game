@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object MenuTitle[] (
+ shape: text:
+ text: "Z# BALL DROP":
+ scaleX: 3:
+ color: #FFFFFF:
+ layer: 30:
+)

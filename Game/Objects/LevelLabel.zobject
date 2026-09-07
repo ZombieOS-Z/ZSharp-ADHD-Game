@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object LevelLabel[] (
+ shape: text:
+ text: "GET THE BALL INTO THE HOLE":
+ scaleX: 1.4:
+ color: #FFFFFF:
+ layer: 30:
+)

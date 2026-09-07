@@ -1,0 +1,14 @@
+zsharp = type.scene
+noticed scene Level2[] (
+ scene Level2 ( title: "Ball Drop - Level 2": icon: "Assets/Icon.png": background: #090A12: gravityY: -900: )
+ objects[JSON] (
+  [
+   { "id": "Wall", "name": "Left Wall", "location": { "x": "-600", "y": "0" } }, { "id": "Wall", "name": "Right Wall", "location": { "x": "600", "y": "0" } },
+   { "id": "Floor", "name": "Left Floor", "location": { "x": "-390", "y": "-330" } }, { "id": "Floor", "name": "Right Floor", "location": { "x": "390", "y": "-330" } },
+   { "id": "Platform", "name": "Start", "location": { "x": "-350", "y": "-235" } }, { "id": "Platform", "name": "Middle", "location": { "x": "40", "y": "-40" } },
+   { "id": "Platform", "name": "Upper", "location": { "x": "310", "y": "145" } }, { "id": "Player", "name": "Player", "location": { "x": "-350", "y": "-170" } },
+   { "id": "Ball", "name": "Ball", "location": { "x": "310", "y": "230" } }, { "id": "LevelLabel", "name": "Goal", "location": { "x": "-180", "y": "315" } },
+   { "id": "HoleLabel", "name": "Hole", "location": { "x": "-25", "y": "-300" } }
+  ]
+ )
+)

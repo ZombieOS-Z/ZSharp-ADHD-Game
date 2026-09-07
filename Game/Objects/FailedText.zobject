@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object FailedText[] (
+ shape: text:
+ text: "FAILED - PRESS R TO RETRY":
+ scaleX: 2.2:
+ color: #FFFFFF:
+ layer: 30:
+)

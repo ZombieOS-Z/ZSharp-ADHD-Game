@@ -1,0 +1,79 @@
+zsharp = type.script
+
+noticed room LevelLogic[] (
+ import zsharp_adhd_game.game.scene():
+ import zsharp_adhd_game.Achievements():
+ noticed number CurrentLevel = 1:
+
+ noticed brain Start[] (
+  loop (
+   if[Game.scene == "Level1"] (
+    number.set:CurrentLevel = 1:
+    if[Player.positionY < -370] ( Game.scene.set: Failed: ) else (
+     if[Ball.positionY < -370] (
+      PassedText.text.set: "PASSED! Next Level: 2":
+      Game.scene.set: Passed:
+      wait(2s):
+      Game.scene.set: Level2:
+     ) else ( )
+    )
+   ) else ( )
+   if[Game.scene == "Level2"] (
+    number.set:CurrentLevel = 2:
+    if[Player.positionY < -370] ( Game.scene.set: Failed: ) else (
+     if[Ball.positionY < -370] (
+      PassedText.text.set: "PASSED! Next Level: 3":
+      Game.scene.set: Passed:
+      wait(2s):
+      Game.scene.set: Level3:
+     ) else ( )
+    )
+   ) else ( )
+   if[Game.scene == "Level3"] (
+    number.set:CurrentLevel = 3:
+    if[Player.positionY < -370] ( Game.scene.set: Failed: ) else (
+     if[Ball.positionY < -370] (
+      PassedText.text.set: "PASSED! Next Level: 4":
+      Game.scene.set: Passed:
+      wait(2s):
+      Game.scene.set: Level4:
+     ) else ( )
+    )
+   ) else ( )
+   if[Game.scene == "Level4"] (
+    number.set:CurrentLevel = 4:
+    if[Player.positionY < -370] ( Game.scene.set: Failed: ) else (
+     if[Ball.positionY < -370] (
+      PassedText.text.set: "PASSED! Next Level: 5":
+      Game.scene.set: Passed:
+      wait(2s):
+      Game.scene.set: Level5:
+     ) else ( )
+    )
+   ) else ( )
+   if[Game.scene == "Level5"] (
+    number.set:CurrentLevel = 5:
+    if[Player.positionY < -370] ( Game.scene.set: Failed: ) else (
+     if[Ball.positionY < -370] (
+      Function.call(Achievements:AchievementEarn:Climber):
+      PassedText.text.set: "PASSED! ALL LEVELS COMPLETE":
+      Game.scene.set: Passed:
+      wait(3s):
+      Game.scene.set: Menu:
+     ) else ( )
+    )
+   ) else ( )
+   if[Game.scene == "Failed" and input.key.r == alive] (
+    if[CurrentLevel == 1] ( Game.scene.set: Level1: ) else (
+     if[CurrentLevel == 2] ( Game.scene.set: Level2: ) else (
+      if[CurrentLevel == 3] ( Game.scene.set: Level3: ) else (
+       if[CurrentLevel == 4] ( Game.scene.set: Level4: ) else ( Game.scene.set: Level5: )
+      )
+     )
+    )
+    wait(300ms):
+   ) else ( )
+   wait(16ms):
+  )
+ )
+)

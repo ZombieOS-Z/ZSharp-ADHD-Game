@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object HoleLabel[] (
+ shape: text:
+ text: "HOLE":
+ scaleX: 1:
+ color: #FF2A72:
+ layer: 30:
+)

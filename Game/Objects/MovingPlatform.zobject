@@ -1,0 +1,11 @@
+zsharp = type.object
+noticed object MovingPlatform[] (
+ shape: rectangle:
+ width: 210:
+ height: 26:
+ color: #FF2A72:
+ body: kinematic:
+ attributes[JSON] (
+  [ { "id": "COLLIDER2D", "active": true } ]
+ )
+)

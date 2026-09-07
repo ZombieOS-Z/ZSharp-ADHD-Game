@@ -1,0 +1,11 @@
+zsharp = type.script:achievement
+
+achievement CLIMBER[JSON] (
+ [
+  {
+   "display": "Climber",
+   "description": "Reach level 5!",
+   "rarity": "HARD"
+  }
+ ]
+)

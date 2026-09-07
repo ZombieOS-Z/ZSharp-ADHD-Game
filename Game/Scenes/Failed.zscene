@@ -1,0 +1,12 @@
+zsharp = type.scene
+noticed scene Failed[] (
+ scene Failed (
+  title: "Level Failed":
+  icon: "Assets/Icon.png":
+  background: #000000:
+  gravityY: 0:
+ )
+ objects[JSON] (
+  [ { "id": "FailedText", "name": "Failed", "location": { "x": "-260", "y": "0" } } ]
+ )
+)

@@ -1,0 +1,12 @@
+zsharp = type.scene
+noticed scene Passed[] (
+ scene Passed (
+  title: "Level Passed":
+  icon: "Assets/Icon.png":
+  background: #000000:
+  gravityY: 0:
+ )
+ objects[JSON] (
+  [ { "id": "PassedText", "name": "Passed", "location": { "x": "-180", "y": "0" } } ]
+ )
+)

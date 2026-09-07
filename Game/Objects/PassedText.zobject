@@ -1,0 +1,8 @@
+zsharp = type.object
+noticed object PassedText[] (
+ shape: text:
+ text: "PASSED!":
+ scaleX: 2.5:
+ color: #FFFFFF:
+ layer: 30:
+)

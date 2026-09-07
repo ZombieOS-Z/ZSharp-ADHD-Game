@@ -1,0 +1,8 @@
+zsharp = type.script
+
+noticed room AchievementEarn[] (
+ import ZSharp.Achievements():
+ noticed brain Climber[DR] (
+  ZSharp.Achievement.Award.CLIMBER:
+ )
+)

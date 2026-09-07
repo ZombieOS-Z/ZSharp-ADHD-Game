@@ -1,0 +1,15 @@
+zsharp = type.object
+noticed object Ball[] (
+ shape: circle:
+ width: 48:
+ height: 48:
+ color: #FFE66D:
+ body: dynamic:
+ gravityScale: 1:
+ restitution: 0.25:
+ friction: 0.04:
+ layer: 19:
+ attributes[JSON] (
+  [ { "id": "COLLIDER2D", "active": true } ]
+ )
+)
